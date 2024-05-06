@@ -22,66 +22,66 @@ const AverageUser = () => {
           Registered User From a $250{" "}
           <span className="font-gradient">investment = $521</span>
         </h1>
-        <div class="d-flex align-items-center  justify-content-center flex-wrap avg_user mx-auto">
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
+        <div className="d-flex align-items-center  justify-content-center flex-wrap avg_user mx-auto">
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
             <img
               data-aos="zoom-in"
-              class="avg_imgs"
+              className="avg_imgs"
               src={samsung}
               alt="samsung "
             />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
-            <img data-aos="zoom-in" class="avg_imgs" src={ford} alt="ford " />
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
+            <img data-aos="zoom-in" className="avg_imgs" src={ford} alt="ford " />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
             <img
               data-aos="zoom-in"
-              class="avg_imgs"
+              className="avg_imgs"
               src={stripe}
               alt="company"
             />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
             <img
               data-aos="zoom-in"
-              class="avg_imgs"
+              className="avg_imgs"
               src={relience}
               alt="reliance "
             />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
-            <img data-aos="zoom-in" class="avg_imgs" src={adani} alt="adani " />
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
+            <img data-aos="zoom-in" className="avg_imgs" src={adani} alt="adani " />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
             <img
               data-aos="zoom-in"
-              class="avg_imgs"
+              className="avg_imgs"
               src={stripe}
               alt="stripe "
             />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
             <img
               data-aos="zoom-in"
-              class="avg_imgs"
+              className="avg_imgs"
               src={google}
               alt="google "
             />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
             <img
               data-aos="zoom-in"
-              class="avg_imgs"
+              className="avg_imgs"
               src={spotify}
               alt="spotify "
             />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
-            <img data-aos="zoom-in" class="avg_imgs" src={tata} alt="tata " />
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
+            <img data-aos="zoom-in" className="avg_imgs" src={tata} alt="tata " />
           </div>
-          <div class="polygon d-flex alignitems-center justify-content-center c_pointer ">
-            <img data-aos="zoom-in" class="avg_imgs" src={tesla} alt="tesla " />
+          <div className="polygon d-flex alignitems-center justify-content-center c_pointer ">
+            <img data-aos="zoom-in" className="avg_imgs" src={tesla} alt="tesla " />
           </div>
         </div>
         <div data-aos="zoom-in" className="d-flex justify-content-center mt-5 ">
