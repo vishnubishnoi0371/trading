@@ -4,7 +4,7 @@ import CommonBtn from "../common/CommonBtn";
 
 const Trade = () => {
   return (
-    <div className="pt-5 pb-xl-5">
+    <div className="pt-5 my-md-5 pb-xl-5">
       <div className="container pt-xl-5 pb-5 mt-md-5">
         <div className="row align-items-center pb-md-5 mb-4 pt-md-5 mt-2 justify-content-center justify-content-lg-between">
           <div data-aos="zoom-in" className="col-md-4 col-12">

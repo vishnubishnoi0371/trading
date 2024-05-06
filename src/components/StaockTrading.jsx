@@ -1,5 +1,4 @@
 import { useState } from "react";
-import CommonBtn from "../common/CommonBtn";
 import stock1 from "../Assets/images/webp/stock1.webp";
 import stock2 from "../Assets/images/webp/stock2.webp";
 import stock3 from "../Assets/images/webp/stock3.webp";
@@ -72,9 +71,9 @@ const StaockTrading = () => {
   };
 
   return (
-    <div className="py-lg-5 py-3">
-      <div className="container py-lg-5 py-3 mt-3">
-        <div className="row align-items-center justify-content-center">
+    <div className="py-lg-5 py-5 mb-5">
+      <div className="container py-lg-5 py-5 mt-5 mb-5">
+        <div className="row align-items-center mb-5 pb-5 justify-content-center">
           <div className="col-lg-6 col-12">
             <h1
               data-aos="zoom-in"
@@ -91,77 +90,85 @@ const StaockTrading = () => {
               Experience Required!
             </p>
             <div className="row">
-              <div data-aos="zoom-in" className="col-md-3 col-6 ">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock1 mb-5 mb-md-0"
-                    src={stock1}
-                    alt="stockimg1"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 d-flex align-items-center justify-content-center stock_img border_bottom"
+              >
+                <img
+                  className="c_pointer stock1  px-1"
+                  src={stock1}
+                  alt="stockimg1"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockbtm">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock2 mb-5 mb-md-0"
-                    src={stock2}
-                    alt="stockimg2"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 d-flex align-items-center justify-content-center stock_img border_bottom border-lft"
+              >
+                <img
+                  className="c_pointer stock2  px-1"
+                  src={stock2}
+                  alt="stockimg2"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockbtm">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock3 mb-5 mb-md-0"
-                    src={stock3}
-                    alt="stockimg3"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 px-sm-4 d-flex align-items-center justify-content-center stock_img border_bottom border-lft"
+              >
+                <img
+                  className="c_pointer stock3  px-1"
+                  src={stock3}
+                  alt="stockimg3"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockbtm">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock4 mb-5 mb-md-0"
-                    src={stock4}
-                    alt="stockimg4"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 px-sm-4 d-flex align-items-center justify-content-center  stock_img border_bottom border-lft"
+              >
+                <img
+                  className="c_pointer stock4  px-1"
+                  src={stock4}
+                  alt="stockimg4"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockline">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock5 mb-5 mb-md-0"
-                    src={stock5}
-                    alt="stockimg5"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 px-sm-4 d-flex align-items-center justify-content-center stock_img border_bottom2 "
+              >
+                <img
+                  className="c_pointer stock5 "
+                  src={stock5}
+                  alt="stockimg5"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockline">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock6 mb-5 mb-md-0"
-                    src={stock6}
-                    alt="stockimg6"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 px-sm-4 d-flex align-items-center justify-content-center stock_img border_bottom2 border-lft"
+              >
+                <img
+                  className="c_pointer stock6  "
+                  src={stock6}
+                  alt="stockimg6"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockline">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock7 mb-5 mb-md-0"
-                    src={stock7}
-                    alt="stockimg7"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 px-sm-4 d-flex align-items-center justify-content-center stock_img border-lft"
+              >
+                <img
+                  className="c_pointer stock7  "
+                  src={stock7}
+                  alt="stockimg7"
+                />
               </div>
-              <div data-aos="zoom-in" className="col-md-3 col-6 stockline2">
-                <div className="d-flex align-items-center justify-content-center">
-                  <img
-                    className="stock8 mb-5 mb-md-0"
-                    src={stock8}
-                    alt="stockimg1"
-                  />
-                </div>
+              <div
+                data-aos="zoom-in"
+                className="col-md-3 col-6 px-sm-4 d-flex align-items-center justify-content-center stock_img border-lft"
+              >
+                <img
+                  className="c_pointer stock8 "
+                  src={stock8}
+                  alt="stockimg1"
+                />
               </div>
             </div>
           </div>
@@ -182,7 +189,7 @@ const StaockTrading = () => {
                     First Name
                   </label>
                   <input
-                    className="firstInput fs-sm fw-semibold off-black-02"
+                    className="firstInput rounded-border input-box  fs-sm fw-semibold off-black-02"
                     type="text"
                     id="name"
                     name="name"
@@ -201,7 +208,7 @@ const StaockTrading = () => {
                     Last Name
                   </label>
                   <input
-                    className="firstInput fs-sm fw-semibold off-black-02"
+                    className="firstInput  rounded-border input-box  input-boxfs-sm fw-semibold off-black-02"
                     type="text"
                     id="lastname"
                     name="lastname"
@@ -221,7 +228,7 @@ const StaockTrading = () => {
                   Email
                 </label>
                 <input
-                  className="firstInput2 fs-sm fw-semibold off-black-02"
+                  className="firstInput2   rounded-border input-box fs-sm fw-semibold off-black-02"
                   type="mail"
                   id="mail"
                   name="mail"
@@ -240,7 +247,7 @@ const StaockTrading = () => {
                   Phone Number
                 </label>
                 <input
-                  className="firstInput2 fs-sm fw-semibold off-black-02"
+                  className="firstInput2   rounded-border input-box fs-sm fw-semibold off-black-02"
                   type="number"
                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
                   id="number"
